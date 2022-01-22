@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contact</title>
+</head>
+
+<body>
+  <h1>My Contact Info</h1>
+  <ol>
+    <li><strong>Phone Contact:</strong> 337-123-1545</li>
+    <li><strong>Email Contact:</strong> myemail@gmail.com</li>
+  </ol>
+
+  <hr>
+  <!-- Form tag is to define what is to go into our form -->
+  <form action="mailto:stephenorgeron@gmail.com" method="post" enctype="text/plain">
+    <!-- Lable element is used to write some text that will be displayed as a
+lable inside the form. -->
+    <label>Your Name:</label>
+    <!-- Input tag is a self closing tag.  Input tags are used by defining with the
+type attribute associated with the input-->
+    <!-- e.g text input where a user can type in there name-->
+    <input type="text" name="yourName" value="" /><br>
+    <!--e.g color input where you change the color of the text-->
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
